@@ -16,7 +16,7 @@
         <div id="bornDatePara">Date Born: <br><span id="bornDateResult">XX/XX/XXXX</span></div>
     </div>
     <div class="questionForm">
-        <form>
+        <form onsubmit="showResults()">
             <!-- Name --> 
             <div class="nameQuestion">What is your name ?</div>
             <br><input type="text" placeholder="Answear Here..." id="inputName" required><br>
@@ -30,7 +30,7 @@
             <br><input type="date" placeholder="Answear Here..." id="inputBornDate" required><br>
 
             <!--Sumbit Button-->
-            <button type="button" id="btn">Sumbit</button>
+            <button type="submit" id="btn">Sumbit</button>
         </form>
     </div>
 </body>

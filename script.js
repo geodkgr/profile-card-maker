@@ -1,6 +1,6 @@
-const btn = document.querySelector("#btn");
+// const btn = document.querySelector("#btn");
 
-btn.addEventListener("click", showResults)
+// btn.addEventListener("click", showResults)
 
 var resultCard = document.getElementById("resultCard");
 var resName = document.getElementById("nameResult");

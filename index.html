@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resultCard" id="resultCard">
+        <header id="header">Profile Card</header>
+        <div id="namePara">Name: <br><span id="nameResult">XXXXXX</span></div>
+        <div id="lastNamePara">Last Name: <br><span id="lastNameResult">XXXXXX</span></div>
+        <div id="bornDatePara">Date Borned: <br><span id="bornDateResult">XX/XX/XXXX</span></div>
+    </div>
+    <div class="questionForm">
+        <form>
+            <!-- Name --> 
+            <div class="nameQuestion">What is your name ?</div>
+            <br><input type="text" placeholder="Answear Here..." id="inputName"><br>
+
+            <!--Last Name-->
+            <div class="lastNameQuestion">What is your last name ?</div>
+            <br><input type="text" placeholder="Answear Here..." id="inputLastName"><br>
+
+            <!--Date borned-->
+            <div class="bornDateQuestion">When you were borned ?</div>
+            <br><input type="date" placeholder="Answear Here..." id="inputBornDate"><br>
+
+            <!--Sumbit Button-->
+            <button type="button" id="btn">Sumbit</button>
+        </form>
+    </div>
+</body>
+</html>
